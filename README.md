@@ -6,9 +6,10 @@ Comparative benchmarking of Mojo and Python across various data structures and a
 
 This section provides the performance results of various algorithms across both Python and Mojo in a tabular format.
 
-| Algorithm       | Python Performance (1000 tests)                     | Mojo Performance (1000 tests)      |
-|-----------------|-----------------------------------------------------|------------------------------------|
-| Insertion Sort  | Average: 0.09246 seconds<br>Total: 92.46207 seconds | Average: Pending<br>Total: Pending |
+| Algorithm       | Python Performance (1000 tests)                      | Mojo Performance (1000 tests)      |
+|-----------------|------------------------------------------------------|------------------------------------|
+| Insertion Sort  | Average: 0.09246 seconds<br>Total: 92.46207 seconds  | Average: Pending<br>Total: Pending |
+| Bubble Sort     | Average: 0.17668 seconds<br>Total: 176.68430 seconds | Average: Pending<br>Total: Pending |
 
 To replicate, run
 ```bash
@@ -29,6 +30,7 @@ python python/runner.py insertion_sort
 
 ### Sorting and Searching:
 - [ ] Insertion Sort
+- [ ] Bubble Sort
 - [ ] TBD Sorting algorithms
 - [ ] TBD Search algorithms
 
