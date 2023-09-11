@@ -16,7 +16,7 @@ def benchmark_algorithm(algorithm, data):
     return sorted_data, elapsed_time
 
 def run_benchmark(benchmark_name):
-    test_suite = load_arrays_from_csv('test_data.csv')
+    test_suite = load_arrays_from_csv('data/1000_tests_of_array_size_1000.csv')
 
     if benchmark_name == "insertion_sort":
         total_time = 0
@@ -26,6 +26,7 @@ def run_benchmark(benchmark_name):
             total_time += elapsed_time
 
         avg_time = total_time / len(test_suite)
+        print(f"Total time taken for insertion sort over {len(test_suite)} tests: {total_time:.5f} seconds")
         print(f"Average time taken for insertion sort over {len(test_suite)} tests: {avg_time:.5f} seconds")
     else:
         print(f"No benchmark found for: {benchmark_name}")
