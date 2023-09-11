@@ -2,6 +2,19 @@
 
 Comparative benchmarking of Mojo and Python across various data structures and algorithms.
 
+## Benchmarking Results
+
+This section provides the performance results of various algorithms across both Python and Mojo in a tabular format.
+
+| Algorithm       | Python Performance (100 tests) | Mojo Performance (100 tests) |
+|-----------------|--------------------------------|------------------------------|
+| Insertion Sort  | 0.09594 seconds                | Pending                      |
+
+To replicate, run
+```bash
+python runner.py insertion_sort
+```
+
 ## To-Do List
 
 ### Data Organization Methods:
